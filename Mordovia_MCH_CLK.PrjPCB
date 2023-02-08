@@ -25,25 +25,16 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=3
-CrossRefCrossSheets=1
-CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
-CurrentVariant=Default
 
 [Preferences]
 PrefsVaultGUID=
@@ -156,7 +147,7 @@ UniqueID=4BAC4612-F954-4A32-BA0D-DDEA1866F39B
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
+VariationCount=53
 Variation1=Designator=R1_1|UniqueId=\JEWOMUZC\IIZLSXAO|Kind=1|AlternatePart= 
 Variation2=Designator=R1_2|UniqueId=\TVIWVRPX\IIZLSXAO|Kind=1|AlternatePart= 
 Variation3=Designator=R1_3|UniqueId=\FHMIEZTK\IIZLSXAO|Kind=1|AlternatePart= 
@@ -181,11 +172,36 @@ Variation21=Designator=R35_3|UniqueId=\FHMIEZTK\PEQAOJVE|Kind=1|AlternatePart=
 Variation22=Designator=R34_3|UniqueId=\FHMIEZTK\SAXEOWMW|Kind=1|AlternatePart= 
 Variation23=Designator=R33_3|UniqueId=\FHMIEZTK\WVPCDWUE|Kind=1|AlternatePart= 
 Variation24=Designator=R29_3|UniqueId=\FHMIEZTK\SHQBEEKV|Kind=1|AlternatePart= 
+Variation25=Designator=R?|UniqueId=\XURDRXET\UQEBFKVO|Kind=0|AlternatePart= 
+Variation26=Designator=R6_1|UniqueId=\NEKZGOWH\STRSGRVW|Kind=1|AlternatePart= 
+Variation27=Designator=R35_1|UniqueId=\NEKZGOWH\PEQAOJVE|Kind=1|AlternatePart= 
+Variation28=Designator=R34_1|UniqueId=\NEKZGOWH\SAXEOWMW|Kind=1|AlternatePart= 
+Variation29=Designator=R1_1|UniqueId=\NEKZGOWH\IIZLSXAO|Kind=1|AlternatePart= 
+Variation30=Designator=R19|UniqueId=\FURVKMZP|Kind=1|AlternatePart= 
+Variation31=Designator=R21|UniqueId=\WNQDAVIT|Kind=1|AlternatePart= 
+Variation32=Designator=R18|UniqueId=\GFYGQETP|Kind=1|AlternatePart= 
+Variation33=Designator=R20|UniqueId=\MPZIXAUI|Kind=1|AlternatePart= 
+Variation34=Designator=R28|UniqueId=\JFYUWEZE|Kind=1|AlternatePart= 
+Variation35=Designator=R27|UniqueId=\JYRMQKBH|Kind=1|AlternatePart= 
+Variation36=Designator=R29|UniqueId=\LSDBHMIN|Kind=1|AlternatePart= 
+Variation37=Designator=R26|UniqueId=\NJSNXDBC|Kind=1|AlternatePart= 
+Variation38=Designator=R40|UniqueId=\AJSSDJCG|Kind=1|AlternatePart= 
+Variation39=Designator=R42|UniqueId=\BEWVREOG|Kind=1|AlternatePart= 
+Variation40=Designator=R41|UniqueId=\JFBPQWEA|Kind=1|AlternatePart= 
+Variation41=Designator=R39|UniqueId=\LPMONGLA|Kind=1|AlternatePart= 
+Variation42=Designator=R40|UniqueId=\NPSBFICP|Kind=1|AlternatePart= 
+Variation43=Designator=R42|UniqueId=\OBAACDUO|Kind=1|AlternatePart= 
+Variation44=Designator=R39|UniqueId=\NFWXIRYK|Kind=1|AlternatePart= 
+Variation45=Designator=R41|UniqueId=\LPJSVRBR|Kind=1|AlternatePart= 
+Variation46=Designator=R26|UniqueId=\JVGFOJJG|Kind=1|AlternatePart= 
+Variation47=Designator=R28|UniqueId=\EHUHSWZJ|Kind=1|AlternatePart= 
+Variation48=Designator=R27|UniqueId=\OVGRLHZH|Kind=1|AlternatePart= 
+Variation49=Designator=R29|UniqueId=\CWYLFMJO|Kind=1|AlternatePart= 
+Variation50=Designator=R18|UniqueId=\RQOVIVFN|Kind=1|AlternatePart= 
+Variation51=Designator=R20|UniqueId=\QSDDOIPN|Kind=1|AlternatePart= 
+Variation52=Designator=R19|UniqueId=\KZGEJYGP|Kind=1|AlternatePart= 
+Variation53=Designator=R21|UniqueId=\PIGAXSRC|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Mordovia_MCH_CLK\Design Rule Check - Mordovia_MCH_CLK.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -356,7 +372,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=PCB 3D Print
@@ -374,13 +390,13 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType5=PCBLIB Print
 OutputName5=PCBLIB Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType6=Report Print
@@ -450,13 +466,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType3=Final
@@ -473,7 +489,7 @@ OutputDefault4=0
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType6=NC Drill
@@ -489,7 +505,7 @@ OutputDefault7=0
 OutputType8=Plane
 OutputName8=Power-Plane Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType9=Test Points
@@ -506,12 +522,12 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 OutputType11=Gerber X2
 OutputName11=Gerber X2 Files
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 OutputType12=IPC2581
 OutputName12=IPC-2581 Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -775,6 +791,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1104,7 +1150,6 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
